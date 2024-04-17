@@ -1,13 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <div>
-    <Button>hi</Button>
-    <Button>bye</Button>
-    <Button>bye2</Button>
+    <RouterLink to="onlyfans.com/coupleinglove">
+      <Button label="OnlyFans" />
+    </RouterLink>
   </div>
 </template>
 
