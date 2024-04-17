@@ -6,6 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div>
     <Button>hi</Button>
+    <Button>bye</Button>
   </div>
 </template>
 
