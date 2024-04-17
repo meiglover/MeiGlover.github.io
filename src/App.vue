@@ -7,7 +7,6 @@ import HelloWorld from './components/HelloWorld.vue'
   <div>
     <Button>hi</Button>
     <Button>bye</Button>
-    <Button>bye2</Button>
   </div>
 </template>
 
