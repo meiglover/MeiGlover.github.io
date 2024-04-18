@@ -9,6 +9,7 @@ import PrimeVue from 'primevue/config'
 import 'primevue/resources/themes/aura-light-pink/theme.css'
 
 import Button from 'primevue/button'
+import Image from 'primevue/image'
 
 const app = createApp(App)
 
@@ -17,5 +18,6 @@ app.use(router)
 app.use(PrimeVue)
 
 app.component('Button', Button)
+app.component('Image', Image)
 
 app.mount('#app')
