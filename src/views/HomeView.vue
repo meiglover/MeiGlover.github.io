@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import ButtonList from 'src/components/ButtonList.vue'
+import { Links } from 'src/helpers/links.constants.js'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <ButtonList :list="Links" />
+  </div>
 </template>

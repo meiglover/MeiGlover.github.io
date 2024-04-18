@@ -1,7 +1,8 @@
+<script setup>
+import ButtonList from './components/ButtonList.vue'
+import { Links } from './helpers/links.constants'
+</script>
+
 <template>
-  <div>
-    <a href="https://www.onlyfans.com/coupleinglove">
-      <Button label="OnlyFans" />
-    </a>
-  </div>
+  <ButtonList :list="Links" />
 </template>
