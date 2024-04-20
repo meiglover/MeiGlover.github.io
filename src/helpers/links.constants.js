@@ -50,6 +50,11 @@ export const Links = [
     class: 'linkButton social'
   },
   {
+    name: 'TikTok',
+    link: 'https://www.tiktok.com/@coupleinglove',
+    class: 'linkButton social'
+  },
+  {
     name: 'X',
     link: 'https://twitter.com/coupleinglove',
     class: 'linkButton social'

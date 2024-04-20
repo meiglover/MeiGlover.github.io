@@ -36,6 +36,13 @@
   --section-gap: 160px;
 }
 
+/* custom colors */
+:root {
+  --cig-pink: #df809e;
+  --cig-pink-dark: #b65b79;
+  --cig-blue: #6fa0d9;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);

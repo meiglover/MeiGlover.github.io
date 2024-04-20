@@ -16,13 +16,6 @@ const props = defineProps({
 </template>
 
 <style>
-:root {
-  --cig-pink: #df809e;
-  --cig-pink-dark: #b65b79;
-  --cig-pink-extra-dark: #973f5e;
-  --cig-blue: #6fa0d9;
-}
-
 .buttonList {
   text-align: center;
 }
@@ -34,6 +27,9 @@ const props = defineProps({
   margin: 1vmin;
   background-color: var(--cig-pink-dark);
   border: none;
+}
+.linkButton:hover {
+  filter: brightness(90%);
 }
 
 .priority {
