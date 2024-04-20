@@ -34,7 +34,7 @@ const props = defineProps({
 
 .priority {
   font-size: 14pt;
-  height: 12vh;
+  height: 10vh;
   background-color: var(--cig-pink);
 }
 

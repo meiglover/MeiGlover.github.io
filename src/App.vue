@@ -5,7 +5,7 @@ import { Links } from './helpers/links.constants'
 
 <template>
   <div class="mainList">
-    <Image src="/assets/pfp.png" width="128" class="round" />
+    <Image src="/assets/pfp.png" width="100" class="round" />
     <ButtonList :list="Links" />
   </div>
 </template>
