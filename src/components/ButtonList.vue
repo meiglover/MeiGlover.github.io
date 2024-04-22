@@ -25,6 +25,7 @@ const props = defineProps({
   display: inline;
   width: 100%;
   margin: 1vmin;
+  height: 6vh;
   background-color: var(--cig-pink-dark);
   border: none;
 }

@@ -1,13 +1,20 @@
 <script setup>
 import ButtonList from './components/ButtonList.vue'
 import { Links } from './helpers/links.constants'
+import { useDialog } from 'primevue/usedialog'
+import AboutUs from './components/AboutUs.vue'
+
+const dialog = useDialog()
 </script>
 
 <template>
   <div class="mainList">
-    <Image src="/assets/pfp.png" width="100" class="round" />
+    <span @click="dialog.open(AboutUs, { props: { modal: true, draggable: false } })">
+      <Image src="/assets/about_us.png" width="100" class="round imageButton" />
+    </span>
     <ButtonList :list="Links" />
   </div>
+  <DynamicDialog />
 </template>
 
 <style>
@@ -16,5 +23,10 @@ import { Links } from './helpers/links.constants'
   img {
     border-radius: 100%;
   }
+}
+
+.imageButton:hover {
+  cursor: pointer;
+  filter: brightness(90%);
 }
 </style>
