@@ -10,8 +10,13 @@ export const Links = [
     class: 'linkButton priority'
   },
   {
-    name: 'See the Spicy Stuff on ManyVids',
+    name: 'See the Intense Stuff on ManyVids',
     link: 'https://www.manyvids.com/Profile/1008249929/coupleinglove/Store/Videos/',
+    class: 'linkButton priority'
+  },
+  {
+    name: 'See the Intense Stuff on Clips4sale',
+    link: 'https://www.clips4sale.com/studio/269505/coupleinglove',
     class: 'linkButton priority'
   },
   {
