@@ -1,6 +1,5 @@
 <script setup>
 import ButtonList from './components/ButtonList.vue'
-import { Links } from './helpers/links.constants'
 import { useDialog } from 'primevue/usedialog'
 import AboutUs from './components/AboutUs.vue'
 
@@ -12,7 +11,7 @@ const dialog = useDialog()
     <span @click="dialog.open(AboutUs, { props: { modal: true, draggable: false } })">
       <Image src="/assets/about_us.png" width="100" class="round imageButton" />
     </span>
-    <ButtonList :list="Links" />
+    <ButtonList />
   </div>
   <DynamicDialog />
 </template>

@@ -1,16 +1,20 @@
 <script setup>
-const props = defineProps({
-  list: {
-    type: Object,
-    required: true
-  }
-})
+import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpers/links.constants'
 </script>
 
 <template>
   <div class="buttonList">
-    <a v-for="item in props.list" :key="item.name" :href="item.link">
-      <Button :class="item.class" :label="item.name"></Button>
+    <a v-for="item in SubscriptionLinks" :key="item.name" :href="item.link">
+      <Button class="subscriptionButton" :label="item.name"></Button>
+    </a>
+    <a v-for="item in PPVLinks" :key="item.name" :href="item.link">
+      <Button class="ppvButton" :label="item.name"></Button>
+    </a>
+    <a v-for="item in PurchaseLinks" :key="item.name" :href="item.link">
+      <Button class="purchaseButton" :label="item.name"></Button>
+    </a>
+    <a v-for="item in SocialLinks" :key="item.name" :href="item.link">
+      <Button class="socialButton" :label="item.name" rounded></Button>
     </a>
   </div>
 </template>
@@ -20,7 +24,29 @@ const props = defineProps({
   text-align: center;
 }
 
-.linkButton {
+.subscriptionButton {
+  display: inline;
+  width: 100%;
+  margin: 1vmin;
+  border: none;
+
+  font-size: 14pt;
+  height: 10vh;
+  background-color: var(--cig-pink);
+}
+
+.ppvButton {
+  display: inline;
+  width: 100%;
+  margin: 1vmin;
+  border: none;
+
+  font-size: 14pt;
+  height: 10vh;
+  background-color: var(--cig-pink);
+}
+
+.purchaseButton {
   font-size: 12pt;
   display: inline;
   width: 100%;
@@ -29,17 +55,12 @@ const props = defineProps({
   background-color: var(--cig-pink-dark);
   border: none;
 }
-.linkButton:hover {
-  filter: brightness(90%);
-}
 
-.priority {
-  font-size: 14pt;
-  height: 10vh;
-  background-color: var(--cig-pink);
-}
+.socialButton {
+  display: inline;
+  margin: 1vmin;
+  border: none;
 
-.social {
   font-size: 10pt;
   background-color: var(--cig-blue);
   width: 30%;

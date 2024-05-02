@@ -13,6 +13,7 @@ import Button from 'primevue/button'
 import Image from 'primevue/image'
 import DynamicDialog from 'primevue/dynamicdialog'
 import DialogService from 'primevue/dialogservice'
+import Message from 'primevue/message'
 
 const app = createApp(App)
 
@@ -26,5 +27,6 @@ app.use(VueGtag, {
 app.component('Button', Button)
 app.component('Image', Image)
 app.component('DynamicDialog', DynamicDialog)
+app.component('Message', Message)
 
 app.mount('#app')
