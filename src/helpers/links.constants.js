@@ -1,20 +1,20 @@
 export const SubscriptionLinks = [
   {
-    name: 'Become our Patient on OnlyFans',
+    name: 'Subscribe on OnlyFans',
     link: 'https://onlyfans.com/coupleinglove'
   },
   {
-    name: 'Become our Patient on Fansly',
+    name: 'Subscribe on Fansly',
     link: 'https://fans.ly/CoupleInGlove'
   }
 ]
 export const PPVLinks = [
   {
-    name: 'See the Intense Stuff on Clips4sale',
+    name: 'Buy Our Videos on Clips4sale',
     link: 'https://www.clips4sale.com/studio/269505/coupleinglove'
   },
   {
-    name: 'See the Intense Stuff on ManyVids',
+    name: 'Buy Our Videos on ManyVids',
     link: 'https://www.manyvids.com/Profile/1008249929/coupleinglove/Store/Videos/'
   }
 ]

@@ -1,12 +1,18 @@
 <script setup>
 import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpers/links.constants'
+
+// Set to empty string when no current promo is active.
+const currentPromo = '50% OFF!'
 </script>
 
 <template>
   <div class="buttonList">
     <a v-for="item in SubscriptionLinks" :key="item.name" :href="item.link">
-      <Button class="subscriptionButton" :label="item.name"></Button>
+      <Button class="subscriptionButton" :label="item.name" :badge="currentPromo"></Button>
     </a>
+    <strong class="subscriptionNotice">
+      Subscribers will ALWAYS be first priority and get the best prices on all PPV content.
+    </strong>
     <a v-for="item in PPVLinks" :key="item.name" :href="item.link">
       <Button class="ppvButton" :label="item.name"></Button>
     </a>
@@ -32,7 +38,17 @@ import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpe
 
   font-size: 14pt;
   height: 10vh;
-  background-color: var(--cig-pink);
+  background: linear-gradient(
+    0.25turn,
+    var(--cig-blue) 0%,
+    var(--cig-pink) 20% 80%,
+    var(--cig-blue) 100%
+  );
+}
+
+.subscriptionNotice {
+  font-weight: bold;
+  color: var(--cig-pink);
 }
 
 .ppvButton {
@@ -51,7 +67,7 @@ import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpe
   display: inline;
   width: 100%;
   margin: 1vmin;
-  height: 6vh;
+  height: 8vh;
   background-color: var(--cig-pink-dark);
   border: none;
 }
