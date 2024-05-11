@@ -1,8 +1,9 @@
 <script setup>
 import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpers/links.constants'
+import staticVariables from '/static/staticVariables.json'
 
 // Set to empty string when no current promo is active.
-const currentPromo = '50% OFF!'
+const currentPromo = staticVariables.promo
 </script>
 
 <template>
