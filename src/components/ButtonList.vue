@@ -45,6 +45,10 @@ const currentPromo = staticVariables.promo
     var(--cig-pink) 20% 80%,
     var(--cig-blue) 100%
   );
+
+  .p-button-label {
+    font-weight: 600;
+  }
 }
 
 .subscriptionNotice {
