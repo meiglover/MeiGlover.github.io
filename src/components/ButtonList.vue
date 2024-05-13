@@ -1,15 +1,21 @@
 <script setup>
 import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpers/links.constants'
-import staticVariables from '/static/staticVariables.json'
+import { onBeforeMount, ref } from 'vue'
 
-// Set to empty string when no current promo is active.
-const currentPromo = staticVariables.promo
+const publicConstants = ref(null)
+onBeforeMount(async () => {
+  publicConstants.value = await fetch('/publicConstants.json').then((response) => response.json())
+})
 </script>
 
 <template>
   <div class="buttonList">
     <a v-for="item in SubscriptionLinks" :key="item.name" :href="item.link">
-      <Button class="subscriptionButton" :label="item.name" :badge="currentPromo"></Button>
+      <Button
+        class="subscriptionButton"
+        :label="item.name"
+        :badge="publicConstants?.promo"
+      ></Button>
     </a>
     <strong class="subscriptionNotice">
       Subscribers will ALWAYS be first priority and get the best prices on all PPV content.
