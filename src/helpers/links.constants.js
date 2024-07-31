@@ -1,5 +1,9 @@
 export const SubscriptionLinks = [
   {
+    name: 'Subscribe on LoyalFans',
+    link: 'https://www.loyalfans.com/coupleinglove'
+  },
+  {
     name: 'Subscribe on OnlyFans',
     link: 'https://onlyfans.com/coupleinglove'
   },
@@ -9,6 +13,10 @@ export const SubscriptionLinks = [
   }
 ]
 export const PPVLinks = [
+  {
+    name: 'Buy Our Videos on LoyalFans',
+    link: 'https://www.loyalfans.com/coupleinglove/store'
+  },
   {
     name: 'Buy Our Videos on Clips4sale',
     link: 'https://www.clips4sale.com/studio/269505/coupleinglove'
