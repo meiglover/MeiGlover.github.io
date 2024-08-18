@@ -5,7 +5,7 @@ export const SubscriptionLinks = [
   },
   {
     name: 'Subscribe on OnlyFans',
-    link: 'https://onlyfans.com/coupleinglove'
+    link: 'https://onlyfans.com/coupleinglove/c3'
   },
   {
     name: 'Subscribe on Fansly',
@@ -28,7 +28,7 @@ export const PPVLinks = [
 ]
 export const PurchaseLinks = [
   {
-    name: 'Private Content Request Form',
+    name: 'Custom Content Request Form',
     link: 'https://forms.gle/obX95QxpBHBBJULDA'
   },
   {
@@ -42,28 +42,28 @@ export const SocialLinks = [
     link: 'https://instagram.com/coupleinglove'
   },
   {
-    name: 'FetLife',
-    link: 'https://fetlife.com/users/19034487'
-  },
-  {
-    name: 'WWGFA',
-    link: 'https://www.wwgfa.info/forum/memberlist.php?mode=viewprofile&u=13462'
-  },
-  {
-    name: 'ASMR YouTube',
-    link: 'https://youtube.com/@CoupleInGloveASMR?si=YpFWs85VDWsw1_wF'
-  },
-  {
-    name: 'Reddit',
-    link: 'https://www.reddit.com/u/CoupleInGlove/'
-  },
-  {
     name: 'TikTok',
     link: 'https://www.tiktok.com/@coupleinglove'
   },
   {
     name: 'X',
     link: 'https://twitter.com/coupleinglove'
+  },
+  {
+    name: 'YouTube',
+    link: 'https://youtube.com/@CoupleInGloveASMR?si=YpFWs85VDWsw1_wF'
+  },
+  {
+    name: 'FetLife',
+    link: 'https://fetlife.com/users/19034487'
+  },
+  {
+    name: 'Reddit',
+    link: 'https://www.reddit.com/u/CoupleInGlove/'
+  },
+  {
+    name: 'WWGFA',
+    link: 'https://www.wwgfa.info/forum/memberlist.php?mode=viewprofile&u=13462'
   },
   {
     name: 'WatchGirls',
