@@ -7,23 +7,37 @@ const dialog = useDialog()
 </script>
 
 <template>
-  <div class="mainList">
-    <span @click="dialog.open(AboutUs, { props: { modal: true, draggable: false } })">
-      <Image src="/assets/about_us.png" width="100" class="round imageButton" />
+  <div class="header">
+    <span class='aboutUs' @click="dialog.open(AboutUs, { props: { modal: true, draggable: false, dismissableMask: true } })">
+      <Image src="/assets/about_us.png" height="100" class="round imageButton" />
     </span>
-    <ButtonList />
+    <span class="feature">
+      <Image src="/assets/feature.jpg" height="100" class="round" preview />
+    </span>
   </div>
+  <ButtonList />
   <DynamicDialog />
 </template>
 
 <style>
-.mainList {
-  text-align: center;
+.header {
+  margin: 1vmin;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutUs {
   img {
     border-radius: 100%;
   }
 }
 
+.feature {
+  img {
+    border-radius: 6px;
+  }
+}
 .imageButton:hover {
   cursor: pointer;
   filter: brightness(90%);
