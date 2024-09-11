@@ -29,7 +29,7 @@ export const PPVLinks = [
 export const PurchaseLinks = [
   {
     name: 'Custom Content Request Form',
-    link: 'https://forms.gle/obX95QxpBHBBJULDA'
+    link: 'https://forms.gle/b1tckfmD1ahsRqYQ9'
   },
   {
     name: 'Amazon Wishlist',
