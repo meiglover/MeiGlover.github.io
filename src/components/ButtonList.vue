@@ -18,11 +18,14 @@ onBeforeMount(async () => {
       ></Button>
     </a>
     <strong class="subscriptionNotice">
-      Subscribers will ALWAYS be first priority and get the best prices on all PPV content.
+      Subscribers will ALWAYS be first priority and get the best prices on all paid content.
     </strong>
     <a v-for="item in PPVLinks" :key="item.name" :href="item.link">
       <Button class="ppvButton" :label="item.name"></Button>
     </a>
+    <strong class="requestNotice">
+      We can't often message on socials, but if you would like a custom, fill out our form!
+    </strong>
     <a v-for="item in PurchaseLinks" :key="item.name" :href="item.link">
       <Button class="purchaseButton" :label="item.name"></Button>
     </a>
@@ -60,6 +63,11 @@ onBeforeMount(async () => {
 .subscriptionNotice {
   font-weight: bold;
   color: var(--cig-pink);
+}
+
+.requestNotice {
+  font-weight: bold;
+  color: var(--cig-blue);
 }
 
 .ppvButton {

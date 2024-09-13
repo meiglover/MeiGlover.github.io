@@ -62,6 +62,10 @@ export const SocialLinks = [
     link: 'https://www.reddit.com/u/CoupleInGlove/'
   },
   {
+    name: 'Clapper',
+    link: 'https://www.clapperapp.com/CoupleInGlove'
+  },
+  {
     name: 'WWGFA',
     link: 'https://www.wwgfa.info/forum/memberlist.php?mode=viewprofile&u=13462'
   },
