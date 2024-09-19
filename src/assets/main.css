@@ -24,3 +24,24 @@ a,
 .p-badge {
   margin-left: 4px;
 }
+
+.imageButton:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.p-galleria {
+  align-self: center;
+  overflow: hidden;
+  border-color: var(--color-border);
+  border-width: 1px;
+  border-radius: 6px;
+
+  .p-galleria-thumbnail-container {
+    background: var(--color-custom-background);
+
+    .p-galleria-thumbnail-item {
+      padding: 6px;
+    }
+  }
+}

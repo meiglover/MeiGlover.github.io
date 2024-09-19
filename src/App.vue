@@ -2,26 +2,24 @@
 import ButtonList from './components/ButtonList.vue'
 import { useDialog } from 'primevue/usedialog'
 import AboutUs from './components/AboutUs.vue'
+import { FeatureLink } from './helpers/links.constants'
+import { AboutUsIcon, FeatureIcon } from './helpers/images.constants';
 
 const dialog = useDialog()
 
 function aboutAction() {
   dialog.open(AboutUs, { props: { modal: true, draggable: false, dismissableMask: true } })
 }
-
-function featureAction() {
-  window.location.href = 'https://www.loyalfans.com/coupleinglove'
-}
 </script>
 
 <template>
   <div class="header">
     <span class="aboutUs" @click="aboutAction">
-      <Image src="/assets/about_us.png" height="100" class="round imageButton" />
+      <Image class="imageButton" :src=AboutUsIcon height="100" />
     </span>
-    <span class="feature" @click="featureAction">
-      <Image src="/assets/feature.jpg" height="100" class="round imageButton" />
-    </span>
+    <a class="feature" :href="FeatureLink">
+      <Image class="imageButton" :src=FeatureIcon height="100" />
+    </a>
   </div>
   <ButtonList />
   <DynamicDialog />
@@ -45,10 +43,5 @@ function featureAction() {
   img {
     border-radius: 6px;
   }
-}
-
-.imageButton:hover {
-  cursor: pointer;
-  filter: brightness(90%);
 }
 </style>

@@ -11,6 +11,7 @@ import 'primevue/resources/themes/aura-light-pink/theme.css'
 
 import Button from 'primevue/button'
 import Image from 'primevue/image'
+import Galleria from 'primevue/galleria';
 import DynamicDialog from 'primevue/dynamicdialog'
 import DialogService from 'primevue/dialogservice'
 import Message from 'primevue/message'
@@ -26,6 +27,7 @@ app.use(VueGtag, {
 
 app.component('Button', Button)
 app.component('Image', Image)
+app.component('Galleria', Galleria)
 app.component('DynamicDialog', DynamicDialog)
 app.component('Message', Message)
 

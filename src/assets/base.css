@@ -41,6 +41,7 @@
   --color-custom-primary: #df809e;
   --color-custom-primary-dark: #b65b79;
   --color-custom-secondary: #6fa0d9;
+  --color-custom-background: #f5f5f5;
 }
 
 @media (prefers-color-scheme: dark) {
