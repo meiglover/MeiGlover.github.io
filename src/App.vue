@@ -4,15 +4,23 @@ import { useDialog } from 'primevue/usedialog'
 import AboutUs from './components/AboutUs.vue'
 
 const dialog = useDialog()
+
+function aboutAction() {
+  dialog.open(AboutUs, { props: { modal: true, draggable: false, dismissableMask: true } })
+}
+
+function featureAction() {
+  window.location.href = 'https://www.loyalfans.com/coupleinglove'
+}
 </script>
 
 <template>
   <div class="header">
-    <span class='aboutUs' @click="dialog.open(AboutUs, { props: { modal: true, draggable: false, dismissableMask: true } })">
+    <span class="aboutUs" @click="aboutAction">
       <Image src="/assets/about_us.png" height="100" class="round imageButton" />
     </span>
-    <span class="feature">
-      <Image src="/assets/feature.jpg" height="100" class="round" preview />
+    <span class="feature" @click="featureAction">
+      <Image src="/assets/feature.jpg" height="100" class="round imageButton" />
     </span>
   </div>
   <ButtonList />
@@ -38,6 +46,7 @@ const dialog = useDialog()
     border-radius: 6px;
   }
 }
+
 .imageButton:hover {
   cursor: pointer;
   filter: brightness(90%);

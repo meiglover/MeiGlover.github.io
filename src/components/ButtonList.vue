@@ -1,5 +1,6 @@
 <script setup>
 import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpers/links.constants'
+import { SubscriptionNotice, RequestNotice } from '@/helpers/text.constants'
 import { onBeforeMount, ref } from 'vue'
 
 const publicConstants = ref(null)
@@ -18,13 +19,13 @@ onBeforeMount(async () => {
       ></Button>
     </a>
     <strong class="subscriptionNotice">
-      Subscribers will ALWAYS be first priority and get the best prices on all paid content.
+      {{ SubscriptionNotice }}
     </strong>
     <a v-for="item in PPVLinks" :key="item.name" :href="item.link">
       <Button class="ppvButton" :label="item.name"></Button>
     </a>
     <strong class="requestNotice">
-      We can't often message on socials, but if you would like a custom, fill out our form!
+      {{ RequestNotice }}
     </strong>
     <a v-for="item in PurchaseLinks" :key="item.name" :href="item.link">
       <Button class="purchaseButton" :label="item.name"></Button>
@@ -50,9 +51,9 @@ onBeforeMount(async () => {
   height: 10vh;
   background: linear-gradient(
     0.25turn,
-    var(--cig-blue) 0%,
-    var(--cig-pink) 20% 80%,
-    var(--cig-blue) 100%
+    var(--color-custom-secondary) 0%,
+    var(--color-custom-primary) 20% 80%,
+    var(--color-custom-secondary) 100%
   );
 
   .p-button-label {
@@ -62,12 +63,12 @@ onBeforeMount(async () => {
 
 .subscriptionNotice {
   font-weight: bold;
-  color: var(--cig-pink);
+  color: var(--color-custom-primary);
 }
 
 .requestNotice {
   font-weight: bold;
-  color: var(--cig-blue);
+  color: var(--color-custom-secondary);
 }
 
 .ppvButton {
@@ -78,7 +79,7 @@ onBeforeMount(async () => {
 
   font-size: 14pt;
   height: 10vh;
-  background-color: var(--cig-pink);
+  background-color: var(--color-custom-primary);
 }
 
 .purchaseButton {
@@ -87,7 +88,7 @@ onBeforeMount(async () => {
   width: 100%;
   margin: 1vmin;
   height: 8vh;
-  background-color: var(--cig-pink-dark);
+  background-color: var(--color-custom-primary-dark);
   border: none;
 }
 
@@ -97,7 +98,7 @@ onBeforeMount(async () => {
   border: none;
 
   font-size: 10pt;
-  background-color: var(--cig-blue);
+  background-color: var(--color-custom-secondary);
   width: 30%;
   margin-right: 0;
   height: 10vh;
