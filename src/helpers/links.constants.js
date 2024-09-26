@@ -18,6 +18,10 @@ export const PPVLinks = [
     link: 'https://www.loyalfans.com/coupleinglove/store'
   },
   {
+    name: 'Buy Our Videos on OnlyFans',
+    link: 'https://onlyfans.com/coupleinglovevideostore/c1'
+  },
+  {
     name: 'Buy Our Videos on Clips4sale',
     link: 'https://www.clips4sale.com/studio/269505/coupleinglove'
   },

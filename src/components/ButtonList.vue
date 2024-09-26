@@ -11,28 +11,36 @@ onBeforeMount(async () => {
 
 <template>
   <div class="buttonList">
-    <a v-for="item in SubscriptionLinks" :key="item.name" :href="item.link">
-      <Button
-        class="subscriptionButton"
-        :label="item.name"
-        :badge="publicConstants?.promo"
-      ></Button>
-    </a>
-    <strong class="subscriptionNotice">
+    <div class="subscriptionWrapper">
+      <a v-for="item in SubscriptionLinks" :key="item.name" :href="item.link">
+        <Button
+          class="subscriptionButton"
+          :label="item.name"
+          :badge="publicConstants?.promo"
+        ></Button>
+      </a>
+    </div>
+    <div class="subscriptionNotice">
       {{ SubscriptionNotice }}
-    </strong>
-    <a v-for="item in PPVLinks" :key="item.name" :href="item.link">
-      <Button class="ppvButton" :label="item.name"></Button>
-    </a>
-    <strong class="requestNotice">
+    </div>
+    <div class="ppvWrapper">
+      <a v-for="item in PPVLinks" :key="item.name" :href="item.link">
+        <Button class="ppvButton" :label="item.name"></Button>
+      </a>
+    </div>
+    <div class="requestNotice">
       {{ RequestNotice }}
-    </strong>
-    <a v-for="item in PurchaseLinks" :key="item.name" :href="item.link">
-      <Button class="purchaseButton" :label="item.name"></Button>
-    </a>
-    <a v-for="item in SocialLinks" :key="item.name" :href="item.link">
-      <Button class="socialButton" :label="item.name" rounded></Button>
-    </a>
+    </div>
+    <div class="purchaseWrapper">
+      <a v-for="item in PurchaseLinks" :key="item.name" :href="item.link">
+        <Button class="purchaseButton" :label="item.name"></Button>
+      </a>
+    </div>
+    <div class="socialWrapper">
+      <a v-for="item in SocialLinks" :key="item.name" :href="item.link">
+        <Button class="socialButton" :label="item.name" rounded></Button>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -41,66 +49,76 @@ onBeforeMount(async () => {
   text-align: center;
 }
 
-.subscriptionButton {
-  display: inline;
-  width: 100%;
-  margin: 1vmin;
-  border: none;
+.subscriptionWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
 
-  font-size: 14pt;
-  height: 10vh;
-  background: linear-gradient(
-    0.25turn,
-    var(--color-custom-secondary) 0%,
-    var(--color-custom-primary) 20% 80%,
-    var(--color-custom-secondary) 100%
-  );
+  .subscriptionButton {
+    font-size: 14pt;
+    background: linear-gradient(
+      0.25turn,
+      var(--color-custom-secondary) 0%,
+      var(--color-custom-primary) 20% 80%,
+      var(--color-custom-secondary) 100%
+    );
+    height: 10vh;
+    border: none;
+    width: 100%;
 
-  .p-button-label {
-    font-weight: 600;
+    .p-button-label {
+      font-weight: 600;
+    }
   }
 }
 
 .subscriptionNotice {
   font-weight: bold;
   color: var(--color-custom-primary);
+  width: 100%;
+}
+
+.ppvWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .ppvButton {
+    font-size: 14pt;
+    background-color: var(--color-custom-primary);
+    height: 10vh;
+    border: none;
+    width: 100%;
+  }
 }
 
 .requestNotice {
   font-weight: bold;
   color: var(--color-custom-secondary);
-}
-
-.ppvButton {
-  display: inline;
   width: 100%;
-  margin: 1vmin;
-  border: none;
-
-  font-size: 14pt;
-  height: 10vh;
-  background-color: var(--color-custom-primary);
 }
 
-.purchaseButton {
-  font-size: 12pt;
-  display: inline;
-  width: 100%;
-  margin: 1vmin;
-  height: 8vh;
-  background-color: var(--color-custom-primary-dark);
-  border: none;
+.purchaseWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .purchaseButton {
+    font-size: 12pt;
+    background-color: var(--color-custom-primary-dark);
+    height: 8vh;
+    border: none;
+    width: 100%;
+  }
 }
 
-.socialButton {
-  display: inline;
-  margin: 1vmin;
-  border: none;
+.socialWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
-  font-size: 10pt;
-  background-color: var(--color-custom-secondary);
-  width: 30%;
-  margin-right: 0;
-  height: 10vh;
+  .socialButton {
+    font-size: 10pt;
+    background-color: var(--color-custom-secondary);
+    height: 10vh;
+    border: none;
+    width: 100%;
+  }
 }
 </style>
