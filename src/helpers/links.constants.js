@@ -78,4 +78,4 @@ export const SocialLinks = [
     link: 'https://www.watchgirlsforum.net/memberlist.php?mode=viewprofile&u=157779'
   }
 ]
-export const FeatureLink = 'https://tinylf.com/gbHMeC3BMulHuCh';
+export const FeatureLink = 'https://onlyfans.com/coupleinglovevideostore/c1';
