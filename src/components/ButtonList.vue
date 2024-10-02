@@ -116,9 +116,16 @@ onBeforeMount(async () => {
   .socialButton {
     font-size: 10pt;
     background-color: var(--color-custom-secondary);
-    height: 10vh;
+    height: 8vh;
     border: none;
     width: 100%;
+  }
+
+  a:last-child:nth-child(3n - 1) {
+    grid-column: span 2;
+  }
+  a:last-child:nth-child(3n - 2) {
+    grid-column: span 3;
   }
 }
 </style>

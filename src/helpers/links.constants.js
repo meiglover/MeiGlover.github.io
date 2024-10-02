@@ -4,12 +4,12 @@ export const SubscriptionLinks = [
     link: 'https://www.loyalfans.com/coupleinglove'
   },
   {
-    name: 'Subscribe on OnlyFans',
-    link: 'https://onlyfans.com/coupleinglove/c3'
-  },
-  {
     name: 'Subscribe on Fansly',
     link: 'https://fans.ly/CoupleInGlove'
+  },
+  {
+    name: 'Subscribe on OnlyFans',
+    link: 'https://onlyfans.com/coupleinglove/c3'
   }
 ]
 export const PPVLinks = [
@@ -76,6 +76,10 @@ export const SocialLinks = [
   {
     name: 'WatchGirls',
     link: 'https://www.watchgirlsforum.net/memberlist.php?mode=viewprofile&u=157779'
+  },
+  {
+    name: 'Pornhub',
+    link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://onlyfans.com/coupleinglovevideostore/c1';
+export const FeatureLink = 'https://tinylf.com/YHiMbnX1mEy49sal'
