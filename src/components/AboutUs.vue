@@ -1,6 +1,6 @@
 <script setup>
-import { AboutUsDescription } from '@/helpers/text.constants'
-import { AboutUsImages } from '@/helpers/images.constants'
+import { AboutUsDescription } from '@/constants/text.constants'
+import { AboutUsImages } from '@/constants/images.constants'
 </script>
 
 <template>

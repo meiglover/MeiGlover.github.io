@@ -1,6 +1,6 @@
 <script setup>
-import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/helpers/links.constants'
-import { SubscriptionNotice, RequestNotice } from '@/helpers/text.constants'
+import { SubscriptionLinks, PPVLinks, PurchaseLinks, SocialLinks } from '@/constants/links.constants'
+import { SubscriptionNotice, RequestNotice } from '@/constants/text.constants'
 import { onBeforeMount, ref } from 'vue'
 
 const publicConstants = ref(null)
@@ -16,7 +16,7 @@ onBeforeMount(async () => {
         <Button
           class="subscriptionButton"
           :label="item.name"
-          :badge="publicConstants?.promo"
+          :badge="publicConstants?.promo ? publicConstants?.promo : item.name.includes('LoyalFans') ? 'Preferred' : ''"
         ></Button>
       </a>
     </div>
@@ -54,6 +54,7 @@ onBeforeMount(async () => {
   grid-template-columns: 1fr;
 
   .subscriptionButton {
+    display: block;
     font-size: 14pt;
     background: linear-gradient(
       0.25turn,

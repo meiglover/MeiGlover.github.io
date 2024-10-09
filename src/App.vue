@@ -2,8 +2,8 @@
 import ButtonList from './components/ButtonList.vue'
 import { useDialog } from 'primevue/usedialog'
 import AboutUs from './components/AboutUs.vue'
-import { FeatureLink } from './helpers/links.constants'
-import { AboutUsIcon, FeatureIcon } from './helpers/images.constants'
+import { FeatureLink } from './constants/links.constants'
+import { AboutUsIcon, FeatureIcon } from './constants/images.constants'
 
 const dialog = useDialog()
 

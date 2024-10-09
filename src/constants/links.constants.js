@@ -82,4 +82,4 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://tinylf.com/YHiMbnX1mEy49sal'
+export const FeatureLink = 'https://tinylf.com/JgxCbTktxEP8'
