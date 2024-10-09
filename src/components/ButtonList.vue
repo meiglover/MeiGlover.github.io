@@ -16,7 +16,7 @@ onBeforeMount(async () => {
         <Button
           class="subscriptionButton"
           :label="item.name"
-          :badge="publicConstants?.promo ? publicConstants?.promo : item.name.includes('LoyalFans') ? 'Preferred' : ''"
+          :badge="publicConstants?.promo ? publicConstants?.promo : item.badge"
         ></Button>
       </a>
     </div>

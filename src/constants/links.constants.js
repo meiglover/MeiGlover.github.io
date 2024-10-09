@@ -1,15 +1,18 @@
 export const SubscriptionLinks = [
   {
     name: 'Subscribe on LoyalFans',
-    link: 'https://www.loyalfans.com/coupleinglove'
+    link: 'https://www.loyalfans.com/coupleinglove',
+    badge: 'Preferred'
   },
   {
     name: 'Subscribe on Fansly',
-    link: 'https://fans.ly/CoupleInGlove'
+    link: 'https://fans.ly/CoupleInGlove',
+    badge: ''
   },
   {
     name: 'Subscribe on OnlyFans',
-    link: 'https://onlyfans.com/coupleinglove/c3'
+    link: 'https://onlyfans.com/coupleinglove/c3',
+    badge: ''
   }
 ]
 export const PPVLinks = [
