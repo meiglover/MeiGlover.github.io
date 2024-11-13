@@ -2,7 +2,7 @@ export const SubscriptionLinks = [
   {
     name: 'Subscribe on LoyalFans',
     link: 'https://www.loyalfans.com/coupleinglove',
-    badge: 'Preferred'
+    badge: ''
   },
   {
     name: 'Subscribe on Fansly',
