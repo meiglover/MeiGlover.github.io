@@ -85,4 +85,4 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://onlyfans.com/1455175838/fetishfrontier'
+export const FeatureLink = 'https://fans.ly/CoupleInGlove'
