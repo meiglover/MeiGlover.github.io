@@ -85,4 +85,4 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://fans.ly/CoupleInGlove'
+export const FeatureLink = 'https://tinylf.com/dmyLNLhmTd6'
