@@ -86,3 +86,4 @@ export const SocialLinks = [
   }
 ]
 export const FeatureLink = 'https://tinylf.com/dmyLNLhmTd6'
+export const FixedLink = 'https://forms.gle/b1tckfmD1ahsRqYQ9'

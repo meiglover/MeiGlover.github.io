@@ -2,8 +2,8 @@
 import ButtonList from './components/ButtonList.vue'
 import { useDialog } from 'primevue/usedialog'
 import AboutUs from './components/AboutUs.vue'
-import { FeatureLink } from './constants/links.constants'
-import { AboutUsIcon, FeatureIcon } from './constants/images.constants'
+import { FeatureLink, FixedLink } from './constants/links.constants'
+import { AboutUsIcon, FeatureIcon, FixedIcon } from './constants/images.constants'
 
 const dialog = useDialog()
 
@@ -13,6 +13,9 @@ function aboutAction() {
 </script>
 
 <template>
+  <a class="feature" :href="FixedLink">
+    <Image class="imageButton fixed" :src="FixedIcon" height="100" />
+  </a>
   <div class="header">
     <span class="aboutUs" @click="aboutAction">
       <Image class="imageButton" :src="AboutUsIcon" height="100" />
@@ -44,5 +47,13 @@ function aboutAction() {
       border-radius: 6px;
     }
   }
+}
+
+.fixed {
+  position: fixed;
+  z-index: 100;
+  bottom: 1rem;
+  right: 2rem;
+  opacity: 0.95;
 }
 </style>

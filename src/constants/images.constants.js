@@ -11,3 +11,4 @@ export const AboutUsImages = [
 
 export const AboutUsIcon = "/assets/images/about_us.png";
 export const FeatureIcon = "/assets/images/feature.jpg";
+export const FixedIcon = "/assets/images/fixed.png";
