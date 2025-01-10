@@ -2,6 +2,7 @@
 import ButtonList from './components/ButtonList.vue'
 import { useDialog } from 'primevue/usedialog'
 import AboutUs from './components/AboutUs.vue'
+import ContentRequestForm from './components/ContentRequestForm.vue'
 import { FeatureLink, FixedLink } from './constants/links.constants'
 import { AboutUsIcon, FeatureIcon, FixedIcon } from './constants/images.constants'
 
@@ -10,10 +11,14 @@ const dialog = useDialog()
 function aboutAction() {
   dialog.open(AboutUs, { props: { modal: true, draggable: false, dismissableMask: true } })
 }
+
+function contentRequestAction() {
+  dialog.open(ContentRequestForm, { props: { modal: true, draggable: false } })
+}
 </script>
 
 <template>
-  <a class="feature" :href="FixedLink">
+  <a class="feature" @click="contentRequestAction">
     <Image class="imageButton fixed" :src="FixedIcon" height="100" />
   </a>
   <div class="header">
