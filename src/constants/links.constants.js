@@ -39,8 +39,8 @@ export const PurchaseLinks = [
     link: 'https://forms.gle/b1tckfmD1ahsRqYQ9'
   },
   {
-    name: 'Amazon Wishlist',
-    link: 'https://www.amazon.com/hz/wishlist/ls/319CEJ9QYQAJZ?ref_=wl_share'
+    name: "Mei's Throne",
+    link: 'https://throne.com/meiglover'
   }
 ]
 export const SocialLinks = [
@@ -85,5 +85,6 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://www.clips4sale.com/studio/269505/30394033/dominant-maid-fucks-her-boss'
+export const FeatureLink =
+  'https://www.clips4sale.com/studio/269505/30394033/dominant-maid-fucks-her-boss'
 export const FixedLink = 'https://forms.gle/b1tckfmD1ahsRqYQ9'
