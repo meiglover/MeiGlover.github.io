@@ -85,5 +85,5 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://onlyfans.com/coupleinglove/c3'
+export const FeatureLink = 'https://www.clips4sale.com/studio/269505/30394033/dominant-maid-fucks-her-boss'
 export const FixedLink = 'https://forms.gle/b1tckfmD1ahsRqYQ9'
