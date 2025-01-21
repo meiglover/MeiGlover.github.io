@@ -85,6 +85,5 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink =
-  'https://www.clips4sale.com/studio/269505/30394033/dominant-maid-fucks-her-boss'
+export const FeatureLink = 'https://www.manyvids.com/Video/6262229/prostate-exam-gloved-handjob'
 export const FixedLink = 'https://forms.gle/b1tckfmD1ahsRqYQ9'
