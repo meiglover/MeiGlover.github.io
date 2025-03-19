@@ -85,5 +85,5 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://www.clips4sale.com/studio/269505/30744563/nurses-perform-breath-play-exam'
+export const FeatureLink = 'https://tinylf.com/qJL2KCaQPOuxQ'
 export const FixedLink = 'https://forms.gle/b1tckfmD1ahsRqYQ9'
