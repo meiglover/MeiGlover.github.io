@@ -85,5 +85,5 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink ='https://www.clips4sale.com/studio/269505/30892891/latex-mistress-punishes-rewards-slave'
+export const FeatureLink ='https://www.clips4sale.com/studio/269505/30912043/gloved-wife-seduces-husband'
 export const FixedLink = 'https://forms.gle/b1tckfmD1ahsRqYQ9'
