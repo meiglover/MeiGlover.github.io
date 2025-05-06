@@ -1,16 +1,11 @@
 <script setup>
 import ButtonList from './components/ButtonList.vue'
 import { useDialog } from 'primevue/usedialog'
-import AboutUs from './components/AboutUs.vue'
 import ContentRequestForm from './components/ContentRequestForm.vue'
 import { FeatureLink, FixedLink } from './constants/links.constants'
-import { AboutUsIcon, FeatureIcon, FixedIcon } from './constants/images.constants'
+import { ProfileIcon, FeatureIcon, FixedIcon } from './constants/images.constants'
 
 const dialog = useDialog()
-
-function aboutAction() {
-  dialog.open(AboutUs, { props: { modal: true, draggable: false, dismissableMask: true } })
-}
 
 function contentRequestAction() {
   dialog.open(ContentRequestForm, { props: { modal: true, draggable: false } })
@@ -23,7 +18,7 @@ function contentRequestAction() {
   </a>
   <div class="header">
     <span class="aboutUs" @click="aboutAction">
-      <Image class="imageButton" :src="AboutUsIcon" height="100" />
+      <Image class="imageButton" :src="ProfileIcon" height="100" />
     </span>
     <span>
       <a class="feature" :href="FeatureLink">
