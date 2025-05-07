@@ -22,7 +22,7 @@ app.use(router)
 app.use(PrimeVue)
 app.use(DialogService)
 app.use(VueGtag, {
-  config: { id: 'G-JLPRHL43KM' }
+  config: { id: 'G-4QXKS4DLV7' }
 })
 
 app.component('Button', Button)
