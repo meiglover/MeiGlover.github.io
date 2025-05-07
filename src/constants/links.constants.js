@@ -17,19 +17,19 @@ export const SubscriptionLinks = [
 ]
 export const PPVLinks = [
   {
-    name: 'Buy Our Videos on LoyalFans',
+    name: 'Buy My Videos on LoyalFans',
     link: 'https://www.loyalfans.com/coupleinglove/store'
   },
   {
-    name: 'Buy Our Videos on OnlyFans',
+    name: 'Buy My Videos on OnlyFans',
     link: 'https://onlyfans.com/coupleinglovevideostore/c1'
   },
   {
-    name: 'Buy Our Videos on Clips4sale',
+    name: 'Buy My Videos on Clips4sale',
     link: 'https://www.clips4sale.com/studio/269505/coupleinglove'
   },
   {
-    name: 'Buy Our Videos on ManyVids',
+    name: 'Buy My Videos on ManyVids',
     link: 'https://www.manyvids.com/Profile/1008249929/coupleinglove/Store/Videos/'
   }
 ]
@@ -39,18 +39,18 @@ export const PurchaseLinks = [
     link: 'https://forms.gle/b1tckfmD1ahsRqYQ9'
   },
   {
-    name: "Mei's Throne",
+    name: "Throne",
     link: 'https://throne.com/meiglover'
   }
 ]
 export const SocialLinks = [
   {
     name: 'Instagram',
-    link: 'https://instagram.com/coupleinglove'
+    link: 'https://instagram.com/meiglover.da'
   },
   {
     name: 'TikTok',
-    link: 'https://www.tiktok.com/@coupleinglove'
+    link: 'https://www.tiktok.com/@meiglover'
   },
   {
     name: 'X',
@@ -58,27 +58,15 @@ export const SocialLinks = [
   },
   {
     name: 'YouTube',
-    link: 'https://youtube.com/@CoupleInGloveASMR?si=YpFWs85VDWsw1_wF'
+    link: 'https://www.youtube.com/@MeiGlover'
   },
   {
     name: 'FetLife',
-    link: 'https://fetlife.com/users/19034487'
+    link: 'https://fetlife.com/MeiGlover'
   },
   {
     name: 'Reddit',
-    link: 'https://www.reddit.com/u/CoupleInGlove/'
-  },
-  {
-    name: 'Clapper',
-    link: 'https://www.clapperapp.com/CoupleInGlove'
-  },
-  {
-    name: 'WWGFA',
-    link: 'https://www.wwgfa.info/forum/memberlist.php?mode=viewprofile&u=13462'
-  },
-  {
-    name: 'WatchGirls',
-    link: 'https://www.watchgirlsforum.net/memberlist.php?mode=viewprofile&u=157779'
+    link: 'https://www.reddit.com/u/meiglover/'
   },
   {
     name: 'Pornhub',
