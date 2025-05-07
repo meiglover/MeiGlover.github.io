@@ -17,8 +17,8 @@ function contentRequestAction() {
     <Image class="imageButton fixed" :src="FixedIcon" height="100" />
   </a>
   <div class="header">
-    <span class="aboutUs" @click="aboutAction">
-      <Image class="imageButton" :src="ProfileIcon" height="100" />
+    <span>
+      <Image :src="ProfileIcon" height="100" />
     </span>
     <span>
       <a class="feature" :href="FeatureLink">
@@ -35,12 +35,6 @@ function contentRequestAction() {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
-
-  .aboutUs {
-    img {
-      border-radius: 100%;
-    }
-  }
 
   .feature {
     img {

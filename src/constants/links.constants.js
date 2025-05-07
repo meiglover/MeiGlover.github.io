@@ -1,42 +1,42 @@
 export const SubscriptionLinks = [
   {
     name: 'Subscribe on LoyalFans',
-    link: 'https://www.loyalfans.com/coupleinglove',
+    link: 'https://www.loyalfans.com/meiglover',
     badge: ''
   },
   {
     name: 'Subscribe on Fansly',
-    link: 'https://fans.ly/CoupleInGlove',
+    link: 'https://fans.ly/MeiGlover',
     badge: ''
   },
   {
     name: 'Subscribe on OnlyFans',
-    link: 'https://onlyfans.com/coupleinglove/c3',
+    link: 'https://onlyfans.com/meiglover/c3',
     badge: ''
   }
 ]
 export const PPVLinks = [
   {
     name: 'Buy My Videos on LoyalFans',
-    link: 'https://www.loyalfans.com/coupleinglove/store'
+    link: 'https://www.loyalfans.com/meiglover/store'
   },
   {
     name: 'Buy My Videos on OnlyFans',
-    link: 'https://onlyfans.com/coupleinglovevideostore/c1'
+    link: 'https://onlyfans.com/meiglovervideostore/c1'
   },
   {
     name: 'Buy My Videos on Clips4sale',
-    link: 'https://www.clips4sale.com/studio/269505/coupleinglove'
+    link: 'https://www.clips4sale.com/studio/269505'
   },
   {
     name: 'Buy My Videos on ManyVids',
-    link: 'https://www.manyvids.com/Profile/1008249929/coupleinglove/Store/Videos/'
+    link: 'https://www.manyvids.com/Profile/1008249929/meiglover/Store/Videos'
   }
 ]
 export const PurchaseLinks = [
   {
     name: 'Custom Content Request Form',
-    link: 'https://forms.gle/b1tckfmD1ahsRqYQ9'
+    link: 'https://forms.gle/i36zugBCUMaaqQXT6'
   },
   {
     name: "Throne",
@@ -74,4 +74,4 @@ export const SocialLinks = [
   }
 ]
 export const FeatureLink = 'https://www.clips4sale.com/studio/269505/31025277/sadistic-dentist-dominates-you'
-export const FixedLink = 'https://forms.gle/b1tckfmD1ahsRqYQ9'
+export const FixedLink = 'https://forms.gle/i36zugBCUMaaqQXT6'
