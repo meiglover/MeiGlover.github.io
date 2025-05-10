@@ -54,7 +54,7 @@ export const SocialLinks = [
   },
   {
     name: 'X',
-    link: 'https://twitter.com/coupleinglove'
+    link: 'https://x.com/meiglover_da'
   },
   {
     name: 'YouTube',
