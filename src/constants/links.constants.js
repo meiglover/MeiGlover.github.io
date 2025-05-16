@@ -1,7 +1,7 @@
 export const SubscriptionLinks = [
   {
-    name: 'Subscribe on LoyalFans',
-    link: 'https://www.loyalfans.com/meiglover',
+    name: 'Subscribe on OnlyFans',
+    link: 'https://onlyfans.com/meiglover/c3',
     badge: ''
   },
   {
@@ -10,27 +10,27 @@ export const SubscriptionLinks = [
     badge: ''
   },
   {
-    name: 'Subscribe on OnlyFans',
-    link: 'https://onlyfans.com/meiglover/c3',
+    name: 'Subscribe on LoyalFans',
+    link: 'https://www.loyalfans.com/meiglover',
     badge: ''
   }
 ]
 export const PPVLinks = [
   {
-    name: 'Buy My Videos on LoyalFans',
-    link: 'https://www.loyalfans.com/meiglover/store'
+    name: 'Buy My Videos on Clips4Sale',
+    link: 'https://www.clips4sale.com/studio/269505'
+  },
+  {
+    name: 'Buy My Videos on ManyVids',
+    link: 'https://www.manyvids.com/Profile/1008249929/meiglover/Store/Videos'
   },
   {
     name: 'Buy My Videos on OnlyFans',
     link: 'https://onlyfans.com/meiglovervideostore/c1'
   },
   {
-    name: 'Buy My Videos on Clips4sale',
-    link: 'https://www.clips4sale.com/studio/269505'
-  },
-  {
-    name: 'Buy My Videos on ManyVids',
-    link: 'https://www.manyvids.com/Profile/1008249929/meiglover/Store/Videos'
+    name: 'Buy My Videos on LoyalFans',
+    link: 'https://www.loyalfans.com/meiglover/store'
   }
 ]
 export const PurchaseLinks = [
@@ -39,7 +39,7 @@ export const PurchaseLinks = [
     link: 'https://forms.gle/i36zugBCUMaaqQXT6'
   },
   {
-    name: "Throne",
+    name: 'Throne',
     link: 'https://throne.com/meiglover'
   }
 ]
@@ -73,5 +73,6 @@ export const SocialLinks = [
     link: 'https://www.pornhub.com/model/coupleinglove'
   }
 ]
-export const FeatureLink = 'https://www.clips4sale.com/studio/269505/31113823/petite-nurses-peg-patient'
+export const FeatureLink =
+  'https://www.clips4sale.com/studio/269505/31113823/petite-nurses-peg-patient'
 export const FixedLink = 'https://forms.gle/i36zugBCUMaaqQXT6'

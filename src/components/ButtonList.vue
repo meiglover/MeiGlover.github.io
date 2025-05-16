@@ -36,11 +36,6 @@ onBeforeMount(async () => {
         <Button class="purchaseButton" :label="item.name"></Button>
       </a>
     </div>
-    <div class="socialWrapper">
-      <a v-for="item in SocialLinks" :key="item.name" :href="item.link">
-        <Button class="socialButton" :label="item.name" rounded></Button>
-      </a>
-    </div>
   </div>
 </template>
 
