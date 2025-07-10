@@ -74,5 +74,5 @@ export const SocialLinks = [
   }
 ]
 export const FeatureLink =
-  'https://www.clips4sale.com/studio/269505/31453635/petite-women-have-sensual-sex'
+  'https://onlyfans.com/meiglover/c3'
 export const FixedLink = 'https://forms.gle/i36zugBCUMaaqQXT6'
