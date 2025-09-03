@@ -74,5 +74,5 @@ export const SocialLinks = [
   }
 ]
 export const FeatureLink =
-  'https://www.clips4sale.com/studio/269505/31609689/surgical-nurse-mei-humiliates-pegs-you'
+  'https://www.clips4sale.com/studio/269505/31817907/naughty-and-nice-nurses'
 export const FixedLink = 'https://forms.gle/i36zugBCUMaaqQXT6'
