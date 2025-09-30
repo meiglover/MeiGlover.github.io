@@ -74,5 +74,5 @@ export const SocialLinks = [
   }
 ]
 export const FeatureLink =
-  'https://www.clips4sale.com/studio/269505/31942959/asian-doctor-examines-binds-rides-you'
+  'https://www.clips4sale.com/studio/269505/31988293/oral-surgeons-revive-you'
 export const FixedLink = 'https://forms.gle/i36zugBCUMaaqQXT6'
