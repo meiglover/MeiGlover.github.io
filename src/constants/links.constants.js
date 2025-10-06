@@ -43,7 +43,7 @@ export const PurchaseLinks = [
     link: 'https://throne.com/meiglover'
   },
   {
-    name: 'Foot Fetish Clips',
+    name: 'amateurfeet4sale',
     link: 'https://bentbox.co/amateurfeet4sale'
   }
 ]
