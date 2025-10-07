@@ -78,5 +78,5 @@ export const SocialLinks = [
   }
 ]
 export const FeatureLink =
-  'https://www.clips4sale.com/studio/269505/31988293/oral-surgeons-revive-you'
+  'https://www.clips4sale.com/studio/269505/32036997/losing-a-bet-to-gloved-gamer-girl'
 export const FixedLink = 'https://forms.gle/i36zugBCUMaaqQXT6'
