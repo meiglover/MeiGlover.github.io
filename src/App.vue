@@ -13,9 +13,6 @@ function contentRequestAction() {
 </script>
 
 <template>
-  <a class="feature" @click="contentRequestAction">
-    <Image class="imageButton fixed" :src="FixedIcon" height="100" />
-  </a>
   <div class="header">
     <span>
       <Image :src="ProfileIcon" height="100" />
