@@ -3,16 +3,6 @@ export const SubscriptionLinks = [
     name: 'Subscribe on OnlyFans',
     link: 'https://onlyfans.com/meiglover/c3',
     badge: ''
-  },
-  {
-    name: 'Subscribe on Fansly',
-    link: 'https://fans.ly/MeiGlover',
-    badge: ''
-  },
-  {
-    name: 'Subscribe on LoyalFans',
-    link: 'https://www.loyalfans.com/meiglover',
-    badge: ''
   }
 ]
 export const PPVLinks = [
@@ -23,14 +13,6 @@ export const PPVLinks = [
   {
     name: 'Buy My Videos on ManyVids',
     link: 'https://www.manyvids.com/Profile/1008249929/meiglover/Store/Videos'
-  },
-  {
-    name: 'Buy My Videos on OnlyFans',
-    link: 'https://onlyfans.com/meiglovervideostore/c1'
-  },
-  {
-    name: 'Buy My Videos on LoyalFans',
-    link: 'https://www.loyalfans.com/meiglover/store'
   }
 ]
 export const PurchaseLinks = [

@@ -28,14 +28,6 @@ onBeforeMount(async () => {
         <Button class="ppvButton" :label="item.name"></Button>
       </a>
     </div>
-    <div class="requestNotice">
-      {{ RequestNotice }}
-    </div>
-    <div class="purchaseWrapper">
-      <a v-for="item in PurchaseLinks" :key="item.name" :href="item.link">
-        <Button class="purchaseButton" :label="item.name"></Button>
-      </a>
-    </div>
   </div>
 </template>
 
